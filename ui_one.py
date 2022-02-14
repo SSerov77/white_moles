@@ -33,6 +33,14 @@ class Ui_Form(object):
         self.label_2 = QtWidgets.QLabel(Form)
         self.label_2.setGeometry(QtCore.QRect(10, 50, 251, 20))
         self.label_2.setObjectName("label_2")
+        
+        mp = MapParams
+        self.im = load_map(mp)
+        self.pixmap = QPixmap(self.im)
+        self.image = QtWidgets.QLabel(Form)
+        self.image.move(125, 80)
+        self.image.resize(500, 300)
+        self.image.setPixmap(self.pixmap)
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
