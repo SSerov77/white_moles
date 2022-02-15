@@ -2,6 +2,7 @@ import sys
 
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from ui_one import Ui_Form
+from PyQt5.QtGui import QPixmap
 # from geocoder import get_coordinates
 # from mapapi_PG import show_map
 
