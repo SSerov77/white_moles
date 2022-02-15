@@ -9,7 +9,7 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-from main import MapParams, load_map
+from code import MapParams, load_map
 
 
 class Ui_Form(object):
